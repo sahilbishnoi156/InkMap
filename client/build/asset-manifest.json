@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iNot/static/css/main.8e43ec17.css",
+    "main.js": "/iNot/static/js/main.fdf00286.js",
+    "index.html": "/iNot/index.html",
+    "main.8e43ec17.css.map": "/iNot/static/css/main.8e43ec17.css.map",
+    "main.fdf00286.js.map": "/iNot/static/js/main.fdf00286.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e43ec17.css",
+    "static/js/main.fdf00286.js"
+  ]
+}

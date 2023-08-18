@@ -1,0 +1,286 @@
+
+#body-inner{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-image: url(./landing.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.padding {
+  padding: 3rem !important
+}
+
+.user-card-full {
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.m-r-0 {
+  margin-right: 0px;
+}
+
+.m-l-0 {
+  margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+      background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+  background: linear-gradient(to right, #ee5a6f, #f29263);
+}
+
+.user-profile {
+  padding: 20px 0;
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.m-b-25 {
+  margin-bottom: 25px;
+}
+
+.img-radius {
+  border-radius: 5px;
+}
+
+
+
+h6 {
+  font-size: 14px;
+}
+
+.card .card-block p {
+  line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px){
+p {
+  font-size: 14px;
+}
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.card .card-block p {
+  line-height: 25px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.text-muted {
+  color: #919aa3 !important;
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.f-w-600 {
+  font-weight: 600;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-t-40 {
+  margin-top: 20px;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-t-40 {
+  margin-top: 20px;
+}
+
+.user-card-full .social-link li {
+  display: inline-block;
+}
+
+.user-card-full .social-link li a {
+  font-size: 20px;
+  font-size: 1.4rem;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+}
+.user-card-full .social-link li:hover li:not(:hover){
+  font-size: 1.6rem;
+}
+
+.main-div{
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+}
+.main-div img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#navbar{
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+#nav-inner{
+  background-color: #0000008e;
+}
+#navbar a{
+  color: #fff;
+  font-size: 1.7rem;
+  text-decoration: none;
+  transition: .2s;
+}
+#navbar a:hover{
+  transform: translateY(-5%);
+  text-shadow: 2px 2px 15px white;
+}
+.navbar-nav{
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+html::-webkit-scrollbar{
+  display: none;
+}
+/* html::-webkit-scrollbar{
+  display: none;
+} */
+#navbar button{
+  background-color: darkgoldenrod;
+}
+#login-form,#register-form{
+  position: relative;
+  left: 14rem;
+  height: 90vh;
+  width: 60%;
+}
+
+#register-form{
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+}
+.heading-form{
+  font-size: 5rem;
+}
+.main-div{
+  color: #Fff;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#main-div-inner{
+  color: #Fff;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+.main-div h2{
+  font-size: 7rem;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#2584e9, #1120f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.getting-started{
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  border: 2px solid white;
+  border-radius: 30px;
+  box-shadow: 1px 1px 8px #fff;
+  transition: .2s;
+}
+.getting-started:hover{
+  background: #fff;
+  color: black;
+  transform: translateY(-5%);
+  box-shadow: 2px 2px 18px #fff;
+  cursor: pointer;
+}
+.main-div .text-center{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
+.main-div p{
+  width: 80%;
+}
+#add-note-btn{
+  background-color: white;
+  border: none;
+  font-size: 1.3rem;
+  color: #000;
+  border-radius: 30px;
+  padding: .5rem 1.6rem;
+}
+#add-note-btn:hover{
+  cursor: pointer;
+  opacity: .9;
+  box-shadow: 1px 1px 10px #fff;
+}
+#notes-div{
+  height: 100%;
+  background-color: transparent;
+}
+
+#about-main-div{
+  height:90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
