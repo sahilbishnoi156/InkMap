@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Register() {
-    const host = `https://ink-map-backend-nsehzfqac-sskkpoonia-gmailcom.vercel.app/`;
+    const host = `https://ink-map-backend-nsehzfqac-sskkpoonia-gmailcom.vercel.app`;
     const navigate = useNavigate();
     const checkRef = useRef(null);
     const passRef = useRef(null);
