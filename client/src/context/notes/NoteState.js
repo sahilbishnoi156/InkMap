@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function NoteState(props) {
-  const host = "http://localhost:3000";
+  const host = "http://localhost:5000";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
   const [userDate, setUserDate] = useState('')
