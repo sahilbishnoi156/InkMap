@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Register() {
-    const host = `http://localhost:5000`;
+    const host = process.env.HOST || `http://localhost:5000`;
     const navigate = useNavigate();
     const checkRef = useRef(null);
     const passRef = useRef(null);
